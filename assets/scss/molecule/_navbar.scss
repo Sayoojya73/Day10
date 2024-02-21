@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+   align-content: center;
+    height: 50px;
+    width: 100%;
+
+   
+    @include mobile{
+        flex-direction: column;
+        height: 150px;
+        margin-bottom: 0%;
+        
+    }
+    
+  
+    
+    
+}
+

@@ -1,0 +1,13 @@
+.footer3{
+    background-color: rgb(12, 7, 34);
+    height: 45px;
+    width: 100%;
+
+  @include mobile{
+    height: 40px;
+    padding-top: 0px;
+    margin-top: 0%;
+
+  }
+
+}

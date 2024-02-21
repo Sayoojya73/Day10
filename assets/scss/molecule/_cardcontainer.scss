@@ -1,0 +1,9 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    @include mobile{
+        flex-direction: column;
+    }
+}
